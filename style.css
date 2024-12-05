@@ -1,0 +1,52 @@
+/*Estilos gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(179, 156, 170);
+    height:100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin:0 auto;    
+    padding: 40px 4%;
+}
+
+
+header > .interface{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:houver{
+    color: black;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .isadora button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(226, 43, 226);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}

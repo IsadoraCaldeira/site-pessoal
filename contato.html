@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="whidth=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="cabeçalho">
+        <nav class="menu">
+            <div class="menu-esquerdo">
+                
+                <span class="logo">Isadora</span>
+                <ul>
+                    <li><a href="index.html">Inicio</li>
+                    <li><a href="sobre.html">Sobre</li>
+                    <li><a href="portifolio.html">Portifólio</li>
+                    <li><a href="contato.html">Contato</li>
+
+                </ul>
+             </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h2> Entre em contato</h2>
+
+        <div class="contato- inf">
+            <p><strong>E-mail para contato</strong> caldeiraisadora0@gmail.com</p>
+        </div>
+
+        <form action="/enviar_formulario"method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text"id="nome" name="nome" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">telefone:</label> <!-- Novo campo de telefone -->
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="mensagem">mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+            <button type="submit">enviar</button>
+        </form> 
+    </div>
+</body
